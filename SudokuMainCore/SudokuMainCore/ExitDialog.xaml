@@ -1,0 +1,22 @@
+﻿<Window x:Class="SudokuMainCore.ExitDialog"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+    Height="150" Width="325"
+    ResizeMode="NoResize"
+    Background="#100E17"
+    WindowStartupLocation="CenterOwner" WindowStyle="None"
+    >
+    <Grid>
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10">
+            <TextBlock Text="Uygulamayı kapatmak istediğinizden emin misiniz?" Width="300" 
+                   Margin="10" TextWrapping="Wrap" Foreground="White" />
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="10">
+                <Button Content="Evet" Width="75" Margin="5" Click="YesButton_Click" 
+                    Style="{StaticResource MaterialDesignFlatButton}" Foreground="White" Background="#FF673AB7" BorderBrush="#FF673AB7" />
+                <Button Content="Hayır" Width="75" Margin="5" Click="NoButton_Click" 
+                    Style="{StaticResource MaterialDesignFlatButton}" Background="#FF673AB7" BorderBrush="#FF673AB7" Foreground="White" />
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

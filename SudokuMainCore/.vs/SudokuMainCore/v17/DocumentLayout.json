@@ -1,0 +1,140 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\aliengin.sivas\\Desktop\\SudokuCore\\SudokuMainCore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{019381D2-3967-475F-B795-E0EF70182256}|SudokuMainCore\\SudokuMainCore.csproj|c:\\users\\aliengin.sivas\\desktop\\sudokucore\\sudokumaincore\\sudokumaincore\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{019381D2-3967-475F-B795-E0EF70182256}|SudokuMainCore\\SudokuMainCore.csproj|solutionrelative:sudokumaincore\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{019381D2-3967-475F-B795-E0EF70182256}|SudokuMainCore\\SudokuMainCore.csproj|c:\\users\\aliengin.sivas\\desktop\\sudokucore\\sudokumaincore\\sudokumaincore\\sudoku.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{019381D2-3967-475F-B795-E0EF70182256}|SudokuMainCore\\SudokuMainCore.csproj|solutionrelative:sudokumaincore\\sudoku.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{019381D2-3967-475F-B795-E0EF70182256}|SudokuMainCore\\SudokuMainCore.csproj|c:\\users\\aliengin.sivas\\desktop\\sudokucore\\sudokumaincore\\sudokumaincore\\boardstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{019381D2-3967-475F-B795-E0EF70182256}|SudokuMainCore\\SudokuMainCore.csproj|solutionrelative:sudokumaincore\\boardstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{019381D2-3967-475F-B795-E0EF70182256}|SudokuMainCore\\SudokuMainCore.csproj|c:\\users\\aliengin.sivas\\desktop\\sudokucore\\sudokumaincore\\sudokumaincore\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{019381D2-3967-475F-B795-E0EF70182256}|SudokuMainCore\\SudokuMainCore.csproj|solutionrelative:sudokumaincore\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{019381D2-3967-475F-B795-E0EF70182256}|SudokuMainCore\\SudokuMainCore.csproj|c:\\users\\aliengin.sivas\\desktop\\sudokucore\\sudokumaincore\\sudokumaincore\\properties\\publishprofiles\\folderprofile.pubxml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{019381D2-3967-475F-B795-E0EF70182256}|SudokuMainCore\\SudokuMainCore.csproj|solutionrelative:sudokumaincore\\properties\\publishprofiles\\folderprofile.pubxml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{019381D2-3967-475F-B795-E0EF70182256}|SudokuMainCore\\SudokuMainCore.csproj|c:\\users\\aliengin.sivas\\desktop\\sudokucore\\sudokumaincore\\sudokumaincore\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{019381D2-3967-475F-B795-E0EF70182256}|SudokuMainCore\\SudokuMainCore.csproj|solutionrelative:sudokumaincore\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{019381D2-3967-475F-B795-E0EF70182256}|SudokuMainCore\\SudokuMainCore.csproj|c:\\users\\aliengin.sivas\\desktop\\sudokucore\\sudokumaincore\\sudokumaincore\\exitdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{019381D2-3967-475F-B795-E0EF70182256}|SudokuMainCore\\SudokuMainCore.csproj|solutionrelative:sudokumaincore\\exitdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\aliengin.sivas\\Desktop\\SudokuCore\\SudokuMainCore\\SudokuMainCore\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "SudokuMainCore\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\aliengin.sivas\\Desktop\\SudokuCore\\SudokuMainCore\\SudokuMainCore\\MainWindow.xaml.cs",
+              "RelativeToolTip": "SudokuMainCore\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAABAAAAAAAAAAAqwAoBAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T08:29:06.16Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "sudoku.ico - Icon [32x32, 32 bit, BMP]",
+              "DocumentMoniker": "C:\\Users\\aliengin.sivas\\Desktop\\SudokuCore\\SudokuMainCore\\SudokuMainCore\\sudoku.ico",
+              "RelativeDocumentMoniker": "SudokuMainCore\\sudoku.ico",
+              "ToolTip": "C:\\Users\\aliengin.sivas\\Desktop\\SudokuCore\\SudokuMainCore\\SudokuMainCore\\sudoku.ico - Icon [32x32, 32 bit, BMP]",
+              "RelativeToolTip": "SudokuMainCore\\sudoku.ico - Icon [32x32, 32 bit, BMP]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001525|",
+              "WhenOpened": "2024-08-28T14:14:16.846Z",
+              "EditorCaption": " - Icon [32x32, 32 bit, BMP]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\aliengin.sivas\\Desktop\\SudokuCore\\SudokuMainCore\\SudokuMainCore\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "SudokuMainCore\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\aliengin.sivas\\Desktop\\SudokuCore\\SudokuMainCore\\SudokuMainCore\\AssemblyInfo.cs",
+              "RelativeToolTip": "SudokuMainCore\\AssemblyInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T13:53:47.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BoardState.cs",
+              "DocumentMoniker": "C:\\Users\\aliengin.sivas\\Desktop\\SudokuCore\\SudokuMainCore\\SudokuMainCore\\BoardState.cs",
+              "RelativeDocumentMoniker": "SudokuMainCore\\BoardState.cs",
+              "ToolTip": "C:\\Users\\aliengin.sivas\\Desktop\\SudokuCore\\SudokuMainCore\\SudokuMainCore\\BoardState.cs",
+              "RelativeToolTip": "SudokuMainCore\\BoardState.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T14:15:19.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ExitDialog.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\aliengin.sivas\\Desktop\\SudokuCore\\SudokuMainCore\\SudokuMainCore\\ExitDialog.xaml.cs",
+              "RelativeDocumentMoniker": "SudokuMainCore\\ExitDialog.xaml.cs",
+              "ToolTip": "C:\\Users\\aliengin.sivas\\Desktop\\SudokuCore\\SudokuMainCore\\SudokuMainCore\\ExitDialog.xaml.cs",
+              "RelativeToolTip": "SudokuMainCore\\ExitDialog.xaml.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T14:15:25.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\aliengin.sivas\\Desktop\\SudokuCore\\SudokuMainCore\\SudokuMainCore\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "SudokuMainCore\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\aliengin.sivas\\Desktop\\SudokuCore\\SudokuMainCore\\SudokuMainCore\\MainWindow.xaml",
+              "RelativeToolTip": "SudokuMainCore\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-26T13:29:09.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FolderProfile.pubxml",
+              "DocumentMoniker": "C:\\Users\\aliengin.sivas\\Desktop\\SudokuCore\\SudokuMainCore\\SudokuMainCore\\Properties\\PublishProfiles\\FolderProfile.pubxml",
+              "RelativeDocumentMoniker": "SudokuMainCore\\Properties\\PublishProfiles\\FolderProfile.pubxml",
+              "ToolTip": "C:\\Users\\aliengin.sivas\\Desktop\\SudokuCore\\SudokuMainCore\\SudokuMainCore\\Properties\\PublishProfiles\\FolderProfile.pubxml",
+              "RelativeToolTip": "SudokuMainCore\\Properties\\PublishProfiles\\FolderProfile.pubxml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-08-26T13:27:38.633Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

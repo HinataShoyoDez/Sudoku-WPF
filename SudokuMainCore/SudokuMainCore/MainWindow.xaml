@@ -1,0 +1,121 @@
+﻿<Window x:Class="SudokuMainCore.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        Background="#100E17"
+        Title="Sudoku"
+        Height="650"
+        MouseLeftButtonDown="Window_MouseLeftButtonDown"
+        Width="500">
+    <Window.Resources>
+        <ResourceDictionary>
+
+            <ResourceDictionary.MergedDictionaries>
+                <materialDesign:BundledTheme BaseTheme="Light" PrimaryColor="DeepPurple" SecondaryColor="Amber"/>
+            </ResourceDictionary.MergedDictionaries>
+
+
+            <Style TargetType="Button" BasedOn="{StaticResource MaterialDesignRaisedButton}">
+                <Setter Property="Margin" Value="5"/>
+                <Setter Property="Height" Value="35"/>
+                <Setter Property="Padding" Value="10"/>
+            </Style>
+
+
+
+
+            <Style TargetType="TextBox" BasedOn="{StaticResource MaterialDesignOutlinedTextBox}">
+                <Setter Property="Margin" Value="2"/>
+                <Setter Property="Padding" Value="5"/>
+                <Setter Property="FontSize" Value="18"/>
+                <Setter Property="MinWidth" Value="50"/>
+                <Setter Property="MinHeight" Value="50"/>
+            </Style>
+
+
+            <Style TargetType="ComboBox" BasedOn="{StaticResource MaterialDesignComboBox}">
+                <Setter Property="Margin" Value="0,0,20,0"/>
+                <Setter Property="Padding" Value="5"/>
+                <Setter Property="FontSize" Value="16"/>
+                <Setter Property="MinWidth" Value="50"/>
+                <Setter Property="MinHeight" Value="50"/>
+                <Setter Property="Background" Value="White"/>
+
+                <Setter Property="Foreground" Value="Black"/>
+ 
+
+
+                <Style.Triggers>
+                    <Trigger Property="IsKeyboardFocusWithin" Value="True">
+                        <Setter Property="Background" Value="LightBlue"/>
+
+                    </Trigger>
+                    <Trigger Property="IsDropDownOpen" Value="True">
+                        <Setter Property="Background" Value="LightGray"/>
+
+                    </Trigger>
+                </Style.Triggers>
+            </Style>
+
+        </ResourceDictionary>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Width="100" HorizontalAlignment="Right" VerticalAlignment="Center" Grid.Column="2">
+            <Button Margin="10 20" Style="{StaticResource MaterialDesignFloatingActionButton}" Background="{x:Null}"
+             ToolTip="Close" x:Name="btnExit" Click="btnExit_Click">
+                <materialDesign:PackIcon Kind="Close" Foreground="White" Width="30" Height="30" />
+            </Button>
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Center">
+            <materialDesign:PackIcon Kind="Timer" Width="25" Height="25" Foreground="White" Margin="20,20,0,0"/>
+            <TextBlock x:Name="tboxtimer" Margin="20,20,0,0" Foreground="White" Style="{StaticResource MaterialDesignTextBlock}"/>
+        </StackPanel>
+        
+        <StackPanel Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0" Width="160">
+            <StackPanel Orientation="Horizontal">
+                <Button Margin="10" Style="{StaticResource MaterialDesignFloatingActionButton}" Width="40" Height="40"
+                    ToolTip="Refresh" x:Name="BtnRefresh" Click="BtnRefresh_Click">
+                    <materialDesign:PackIcon Kind="Refresh" Foreground="White" Width="20" Height="20" />
+                </Button>
+
+                <Button Margin="0,0,10,0" Style="{StaticResource MaterialDesignFloatingActionButton}" Width="40" Height="40"
+                     ToolTip="Save" x:Name="btnSave" Click="BtnSave_Click">
+                    <materialDesign:PackIcon Kind="ContentSave" Foreground="White" Width="20" Height="20" />
+                </Button>
+
+                <Button Margin="0,0,10,0" Style="{StaticResource MaterialDesignFloatingActionButton}" Width="40" Height="40"
+                    ToolTip="Save" x:Name="btnLoad" Click="btnLoad_Click">
+                    <materialDesign:PackIcon Kind="FolderDownload" Foreground="White" Width="20" Height="20" />
+                </Button>
+            </StackPanel>
+        </StackPanel>
+        
+        <TextBlock x:Name="tboxResult" Text="Deneme: " Grid.Row="0" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" Style="{StaticResource MaterialDesignTextBlock}" FontSize="18"/>
+        <ComboBox x:Name="CbDiff" Grid.Row="1" Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Right" Width="100" Background="#FF673AB7" Foreground="White" >
+            <ComboBoxItem Content="Kolay" Background="#FF673AB7" />
+            <ComboBoxItem Content="Orta" Background="#FF673AB7" IsSelected="True"/>
+            <ComboBoxItem Content="Zor" Background="#FF673AB7"/>
+        </ComboBox>
+
+        <ContentControl x:Name="SudokuContainer" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="3" Margin="10"/>
+    </Grid>
+</Window>
